@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    padding: 20px;
+    background-color: #4CAF50;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#toggleButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#toggleButton:hover {
+    background-color: #005f73;
+}
